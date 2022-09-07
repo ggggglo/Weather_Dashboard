@@ -7,19 +7,23 @@
     <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="./assets//style.css"/>
     <title>Document</title>
 </head>
 <body>
     <header> Weather'ed! </header>
-    <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Search for a city!</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter city">
-          <small id="emailHelp" class="form-text text-muted">eg: Austin, Palo Alto, Detroit</small>
-        </div>
-        <button type="submit" class="btn btn-primary">Weather me!</button>
-      </form>
+    <div class="input-group rounded">
+        <input id="savecity" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+        <span class="input-group-text border-0" id="search-addon">
+          <button><i class="fas fa-search"></i></button>
+        </span>
+      </div>
 
     <script src="assets/script.js"></script>
 </body>
