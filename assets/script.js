@@ -4,10 +4,14 @@ var search = document.querySelector("button")
 
   search.addEventListener('click', function(){
     var searchsave = city.value; 
-    localStorage.setItem("city", searchsave)
+    localStorage.setItem("city", searchsave);
+    window.location.reload();
   });
 
   var citysave = localStorage.getItem("city")
+
+  $("#history").val(localStorage.getItem("city"));
+
 
   console.log(citysave)
 
