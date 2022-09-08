@@ -54,6 +54,26 @@ var uv5 = document.querySelector("#uv5")
       var weather = data;
       console.log(weather)
       temp.textContent = weather.list[0].main.temp;
+      temp1.textContent = weather.list[1].main.temp;
+      temp2.textContent = weather.list[2].main.temp;
+      temp3.textContent = weather.list[3].main.temp;
+      temp4.textContent = weather.list[4].main.temp;
+      temp5.textContent = weather.list[5].main.temp;
+
+      wind.textContent = weather.list[0].wind.speed;
+      wind1.textContent = weather.list[1].wind.speed;
+      wind2.textContent = weather.list[2].wind.speed;
+      wind3.textContent = weather.list[3].wind.speed;
+      wind4.textContent = weather.list[4].wind.speed;
+      wind5.textContent = weather.list[5].wind.speed;
+
+      humidity.textContent = weather.list[0].main.humidity;
+      humidity1.textContent = weather.list[1].main.humidity;
+      humidity2.textContent = weather.list[2].main.humidity;
+      humidity3.textContent = weather.list[3].main.humidity;
+      humidity4.textContent = weather.list[4].main.humidity;
+      humidity5.textContent = weather.list[5].main.humidity;
+
 
     });
 
