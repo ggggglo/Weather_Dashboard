@@ -46,7 +46,7 @@ var uv5 = document.querySelector("#uv5")
 
   console.log(citysave)
 
-  var apiurl = 'https://api.openweathermap.org/data/2.5/forecast?q='+ citysave +'&appid='+ appid +'';
+  var apiurl = 'https://api.openweathermap.org/data/2.5/forecast?q='+ citysave +'&appid='+ appid +'&units=imperial';
 
   fetch(apiurl)
     .then((response) => response.json())
