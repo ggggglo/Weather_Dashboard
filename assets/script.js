@@ -83,5 +83,12 @@ var day5 = document.querySelector("#day5")
 
     });
 
+    today.textContent = moment().calendar()
+    day1.textContent = moment().add(1, 'days').calendar()
+    day2.textContent = moment().add(2, 'days').calendar()
+    day3.textContent = moment().add(3, 'days').calendar()
+    day4.textContent = moment().add(4, 'days').calendar()
+    day5.textContent = moment().add(5, 'days').calendar()
+    
     var temp = document.querySelector("#temp");
 
