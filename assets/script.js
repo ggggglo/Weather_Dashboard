@@ -32,6 +32,13 @@ var wind5 = document.querySelector("#wind5")
 var humidity5 = document.querySelector("#humidity5")
 var uv5 = document.querySelector("#uv5")
 
+var today = document.querySelector("#today")
+var day1 = document.querySelector("#day1")
+var day2 = document.querySelector("#day2")
+var day3 = document.querySelector("#day3")
+var day4 = document.querySelector("#day4")
+var day5 = document.querySelector("#day5")
+
   search.addEventListener('click', function(){
     var searchsave = city.value; 
     localStorage.setItem("city", searchsave);
@@ -73,7 +80,6 @@ var uv5 = document.querySelector("#uv5")
       humidity3.textContent = weather.list[3].main.humidity;
       humidity4.textContent = weather.list[4].main.humidity;
       humidity5.textContent = weather.list[5].main.humidity;
-
 
     });
 

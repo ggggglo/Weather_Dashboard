@@ -32,30 +32,33 @@
 
       <br>
 
-      <div>Current conditions:</div>
-        <div>Temperature:<span id="temp"></span></div>
-        <div>Wind:<span id="wind"></span> </div>
-        <div>Humidity:<span id="humidity"></span> </div>
-        <div>UV Index:<span id="uv"></span> </div>
+        <div class="current">Current conditions <span id="today"></span>
+          <div class="current">Temperature:<span id="temp"></span></div>
+          <div class="current">Wind:<span id="wind"></span> </div>
+          <div class="current">Humidity:<span id="humidity"></span> </div>
+          <div class="current">UV Index:<span id="uv"></span> </div>
+        </div>
 
       <br>
 
-      <div class="row"> 
-        <div class="col-2 col-md-2.5">Forecast 1
+        <div class="col-12 forecast" id="forecast1">Forecast 1 <span id="day1"></span>
+          <img src="./assets/images/partlyrainy.png">
           <div>Temperature:<span id="temp1"></span> </div>
           <div>Wind:<span id="wind1"></span> </div>
           <div>Humidity:<span id="humidity1"></span> </div>
           <div>UV Index:<span id="uv1"></span> </div>
         </div>
 
-        <div class="col-2 col-md-2.5">Forecast 2
+        <div class="col-12 forecast">Forecast 2 <span id="day2"></span>
+          <img src="./assets/images/partlyrainy.png">
           <div>Temperature:<span id="temp2"></span> </div>
           <div>Wind:<span id="wind2"></span> </div>
           <div>Humidity:<span id="humidity2"></span> </div>
           <div>UV Index:<span id="uv2"></span> </div>
         </div>
 
-        <div class="col-2 col-md-2.5">Forecast 3
+        <div class="col-12 forecast">Forecast 3 <span id="day3"></span>
+          <img src="./assets/images/partlyrainy.png">
           <div>Temperature:<span id="temp3"></span> </div>
           <div>Wind:<span id="wind3"></span> </div>
           <div>Humidity:<span id="humidity3"></span> </div>
@@ -63,14 +66,16 @@
         </div>
 
 
-        <div class="col-2 col-md-2.5">Forecast 4
+        <div class="col-12 forecast">Forecast 4 <span id="day4"></span>
+          <img src="./assets/images/partlyrainy.png">
           <div>Temperature:<span id="temp4"></span> </div>
           <div>Wind:<span id="wind4"></span> </div>
           <div>Humidity:<span id="humidity4"></span> </div>
           <div>UV Index:<span id="uv4"></span> </div>
         </div>
 
-        <div class="col-2 col-md-2.5">Forecast 5
+        <div class="col-12 forecast">Forecast 5 <span id="day5"></span>
+          <img src="./assets/images/partlyrainy.png">
           <div>Temperature:<span id="temp5"></span> </div>
           <div>Wind:<span id="wind5"></span> </div>
           <div>Humidity:<span id="humidity5"></span> </div>
@@ -79,8 +84,9 @@
         
 
 
-      <div class="search history">Search History: <textarea id="history"></textarea></div>
-
+      <div class="searchhistory">Search History: <textarea id="history"></textarea></div>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="assets/script.js"></script>
 </body>
