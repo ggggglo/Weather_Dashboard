@@ -19,7 +19,7 @@ img{
     max-width: 100px;
     position: absolute;
     z-index: -5;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .current{
@@ -27,11 +27,28 @@ img{
 }
 
 .forecast{
-    margin-left: 25px;
+    margin-left: 43px;
     margin-top: 40px;
     position: relative;
+    text-align: center;
+    border-radius: 30px;
+    background-color: pink;
 }
 
+#day1, #day2, #day3, #day4, #day5{
+    font-weight: bolder;
+    background-color: orange;
+}
+
+.spacetop{
+    margin-top: 10px;
+}
+
+textarea{
+    border: 0ch;
+    line-height: 3.5px;
+    text-align: center;
+}
 .searchhistory{
     margin-top: 40px;
 }

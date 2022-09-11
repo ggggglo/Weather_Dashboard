@@ -80,7 +80,6 @@ var day5 = document.querySelector("#day5")
       humidity3.textContent = weather.list[3].main.humidity;
       humidity4.textContent = weather.list[4].main.humidity;
       humidity5.textContent = weather.list[5].main.humidity;
-
     });
 
     today.textContent = moment().calendar()
