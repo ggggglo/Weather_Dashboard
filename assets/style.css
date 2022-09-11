@@ -24,10 +24,10 @@ img{
 
 .current{
     text-align: center;
+    font-weight: bolder;
 }
 
 .forecast{
-    margin-left: 43px;
     margin-top: 40px;
     position: relative;
     text-align: center;
@@ -35,6 +35,17 @@ img{
     background-color: pink;
 }
 
+.uvguidestyle{
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .forecast, .uvguide{
+        margin-left: 45px;
+    }
+
+}
 #day1, #day2, #day3, #day4, #day5{
     font-weight: bolder;
     background-color: orange;
@@ -49,6 +60,17 @@ textarea{
     line-height: 3.5px;
     text-align: center;
 }
+
+.uvguide{
+    text-align: center;
+    background-color: lightblue;
+    font-size: smaller;
+}
+
+.uvguidestyle{
+    margin-top: 20px;
+}
+
 .searchhistory{
     margin-top: 40px;
 }
