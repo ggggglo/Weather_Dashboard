@@ -41,7 +41,7 @@ img{
 }
 
 @media only screen and (min-width: 768px) {
-    .forecast, .uvguide{
+    .forecast {
         margin-left: 45px;
     }
 
@@ -58,6 +58,7 @@ img{
 textarea{
     border: 0ch;
     line-height: 3.5px;
+    max-width: 100px;
     text-align: center;
 }
 
@@ -68,9 +69,10 @@ textarea{
 }
 
 .uvguidestyle{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
-.searchhistory{
+.search{
     margin-top: 40px;
+    text-align: center;
 }
