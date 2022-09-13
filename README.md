@@ -23,6 +23,6 @@ Mobile View
 ![Mobile2](./assets/images/mobile2.png)
 
 # Links
-Github Link:
+Github Link: https://github.com/ggggglo/Weather_Dashboard
 
-Deployed Website Link: 
+Deployed Website Link: https://ggggglo.github.io/Weather_Dashboard/
