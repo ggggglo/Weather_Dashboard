@@ -81,13 +81,37 @@ var day5 = document.querySelector("#day5")
       humidity4.textContent = weatherdata.list[4].main.humidity;
       humidity5.textContent = weatherdata.list[5].main.humidity;
 
-      // var icon = document.querySelector("#icon")
-
-      // icon.textContent = weatherdata.list[0].weather[0].icon;
-
-
       var lat = weatherdata.city.coord.lat
       var lon = weatherdata.city.coord.lon
+
+      var icon1 =  weatherdata.list[0].weather[0].icon
+      var icon2 =  weatherdata.list[1].weather[0].icon
+      var icon3 =  weatherdata.list[2].weather[0].icon
+      var icon4 =  weatherdata.list[3].weather[0].icon
+      var icon5 =  weatherdata.list[4].weather[0].icon
+      var icon6 =  weatherdata.list[5].weather[0].icon
+
+      var iconapi1 = 'http://openweathermap.org/img/wn/'+ icon1 +'@2x.png'
+      var iconapi2 = 'http://openweathermap.org/img/wn/'+ icon2 +'@2x.png'
+      var iconapi3 = 'http://openweathermap.org/img/wn/'+ icon3 +'@2x.png'
+      var iconapi4 = 'http://openweathermap.org/img/wn/'+ icon4 +'@2x.png'
+      var iconapi5 = 'http://openweathermap.org/img/wn/'+ icon5 +'@2x.png'
+      var iconapi6 = 'http://openweathermap.org/img/wn/'+ icon6 +'@2x.png'
+      
+      var iconcontent1 = document.querySelector("#icon1")
+      var iconcontent2 = document.querySelector("#icon2")
+      var iconcontent3 = document.querySelector("#icon3")
+      var iconcontent4 = document.querySelector("#icon4")
+      var iconcontent5 = document.querySelector("#icon5")
+      var iconcontent6 = document.querySelector("#icon6")
+
+      iconcontent1.src = iconapi1
+      iconcontent2.src = iconapi2
+      iconcontent3.src = iconapi3
+      iconcontent4.src = iconapi4
+      iconcontent5.src = iconapi5
+      iconcontent6.src = iconapi6
+     
 
       console.log(lat)
       console.log(lon)

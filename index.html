@@ -19,10 +19,11 @@
 </head>
 <body>
     <header> Weather'ed! </header>
+    <p>To know when to go outside, and when not!</p>
     <div class="input-group rounded">
-        <input id="savecity" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+        <input id="savecity" type="search" class="form-control rounded" placeholder="Search a city!" aria-label="Search" aria-describedby="search-addon" />
         <span class="input-group-text border-0" id="search-addon">
-          <button><i class="fas fa-search"></i></button>
+          <button><i class="fas fa-search" id="searchbar"></i></button>
         </span>
       </div>
 
@@ -37,7 +38,7 @@
           <div class="current">Wind: <span id="wind"></span> m/h</div>
           <div class="current">Humidity: <span id="humidity"></span> %</div>
           <div class="current" id = "uv">UV Index</div>
-          <span id="icon"></img>
+          <img id="icon1" class="icons"></img>
         </div>
 
       <br>
@@ -47,6 +48,7 @@
           <div>Wind: <span id="wind1"></span> m/h</div>
           <div>Humidity: <span id="humidity1"></span> %</div>
           <div id="uv1">UV Index</div>
+          <img id="icon2" class="icons"></img>
         </div>
 
         <div class="col-12 col-sm-2 forecast"><span id="day2"></span>
@@ -54,6 +56,7 @@
           <div>Wind: <span id="wind2"></span> m/h</div>
           <div>Humidity: <span id="humidity2"></span> %</div>
           <div id="uv2">UV Index</div>
+          <img id="icon3" class="icons"></img>
         </div>
 
         <div class="col-12 col-sm-2 forecast"><span id="day3"></span>
@@ -61,6 +64,7 @@
           <div>Wind: <span id="wind3"></span> m/h</div>
           <div>Humidity: <span id="humidity3"></span> %</div>
           <div id="uv3">UV Index</div>
+          <img id="icon4" class="icons"></img>
         </div>
 
         <div class="col-12 col-sm-2 forecast"><span id="day4"></span>
@@ -68,6 +72,7 @@
           <div>Wind: <span id="wind4"></span> m/h</div>
           <div>Humidity: <span id="humidity4"></span> %</div>
           <div id="uv4">UV Index </div>
+          <img id="icon5" class="icons"></img>
         </div>
 
         <div class="col-12 col-sm-2 forecast"><span id="day5"></span>
@@ -75,6 +80,7 @@
           <div>Wind: <span id="wind5"></span> m/h</div>
           <div>Humidity: <span id="humidity5"></span> %</div>
           <div id="uv5">UV Index</div>
+          <img id="icon6" class="icons"></img>
         </div>
       </div>
 
