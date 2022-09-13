@@ -58,31 +58,36 @@ var day5 = document.querySelector("#day5")
   fetch(apiurl)
     .then((response) => response.json())
     .then((data)=> {
-      var weather = data;
-      console.log(weather)
-      temp.textContent = weather.list[0].main.temp;
-      temp1.textContent = weather.list[1].main.temp;
-      temp2.textContent = weather.list[2].main.temp;
-      temp3.textContent = weather.list[3].main.temp;
-      temp4.textContent = weather.list[4].main.temp;
-      temp5.textContent = weather.list[5].main.temp;
+      var weatherdata = data;
+      console.log(weatherdata)
+      temp.textContent = weatherdata.list[0].main.temp;
+      temp1.textContent = weatherdata.list[1].main.temp;
+      temp2.textContent = weatherdata.list[2].main.temp;
+      temp3.textContent = weatherdata.list[3].main.temp;
+      temp4.textContent = weatherdata.list[4].main.temp;
+      temp5.textContent = weatherdata.list[5].main.temp;
 
-      wind.textContent = weather.list[0].wind.speed;
-      wind1.textContent = weather.list[1].wind.speed;
-      wind2.textContent = weather.list[2].wind.speed;
-      wind3.textContent = weather.list[3].wind.speed;
-      wind4.textContent = weather.list[4].wind.speed;
-      wind5.textContent = weather.list[5].wind.speed;
+      wind.textContent = weatherdata.list[0].wind.speed;
+      wind1.textContent = weatherdata.list[1].wind.speed;
+      wind2.textContent = weatherdata.list[2].wind.speed;
+      wind3.textContent = weatherdata.list[3].wind.speed;
+      wind4.textContent = weatherdata.list[4].wind.speed;
+      wind5.textContent = weatherdata.list[5].wind.speed;
 
-      humidity.textContent = weather.list[0].main.humidity;
-      humidity1.textContent = weather.list[1].main.humidity;
-      humidity2.textContent = weather.list[2].main.humidity;
-      humidity3.textContent = weather.list[3].main.humidity;
-      humidity4.textContent = weather.list[4].main.humidity;
-      humidity5.textContent = weather.list[5].main.humidity;
+      humidity.textContent = weatherdata.list[0].main.humidity;
+      humidity1.textContent = weatherdata.list[1].main.humidity;
+      humidity2.textContent = weatherdata.list[2].main.humidity;
+      humidity3.textContent = weatherdata.list[3].main.humidity;
+      humidity4.textContent = weatherdata.list[4].main.humidity;
+      humidity5.textContent = weatherdata.list[5].main.humidity;
 
-      var lat = weather.city.coord.lat
-      var lon = weather.city.coord.lon
+      // var icon = document.querySelector("#icon")
+
+      // icon.textContent = weatherdata.list[0].weather[0].icon;
+
+
+      var lat = weatherdata.city.coord.lat
+      var lon = weatherdata.city.coord.lon
 
       console.log(lat)
       console.log(lon)
