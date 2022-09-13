@@ -1,4 +1,4 @@
-# Weather_Dashboard
+# Weather Dashboard
 Weather dashboard to know when to got outside, and when not!
 
 # Objectives
@@ -21,3 +21,8 @@ Mobile View
 ![Mobile1](./assets/images/mobile1.png)
 
 ![Mobile2](./assets/images/mobile2.png)
+
+# Links
+Github Link:
+
+Deployed Website Link: 
